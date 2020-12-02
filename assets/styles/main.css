@@ -1,1 +1,28 @@
+body {
+  background-color: black;
+}
+
+.aboutMe {
+  color: red;
+}
+
+h1 {
+  color: red;
+}
+
+.skills {
+  color: red;
+}
+
+.contactInfo {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.resume {
+  color: red;
+}
 
