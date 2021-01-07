@@ -179,7 +179,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  -ms-overflow-style: scrollbar;
+  -ms-overflow-style: auto;
 }
 
 figure {
@@ -220,11 +220,13 @@ label {
 
 button {
   border-radius: 0;
+  outline: none;
 }
 
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
+  outline: none;
 }
 
 input,
