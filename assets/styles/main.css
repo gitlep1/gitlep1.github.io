@@ -155,7 +155,7 @@ a {
 }
 a:hover {
   color: #d6370c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -9997,7 +9997,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 7rem 0;
 }
 
 #mainNav {
@@ -10134,6 +10134,18 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
+.linkToCodecademy {
+  color: darkcyan;
+}
+.linkToCodecademy:hover {
+  color: cyan;
+  text-decoration: none;
+}
+
+.projectsTitle {
+  color: aliceblue;
+}
+
 .modal-body {
   background-color: black;
   color: white;
@@ -10144,6 +10156,30 @@ header.masthead h1 {
 }
 
 .resumeContact {
+  border-bottom: 3px dotted red;
+}
+
+.resumeSkills {
+  border-bottom: 3px dotted red;
+}
+
+.resumeExperience {
+  border-bottom: 3px dotted red;
+}
+
+.resumeEducation {
+  border-bottom: 3px dotted red;
+}
+
+.resumeProjects {
+  border-bottom: 3px dotted red;
+}
+
+.resumeAwards {
+  border-bottom: 3px dotted red;
+}
+
+.resumeLanguages {
   border-bottom: 3px dotted red;
 }
 
@@ -10165,9 +10201,4 @@ header.masthead h1 {
 .skills4 {
   display: flex;
   flex-direction: column;
-  border-bottom: 3px dotted red;
-}
-
-a {
-  color: darkcyan;
 }
