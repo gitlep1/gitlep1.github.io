@@ -10167,3 +10167,7 @@ header.masthead h1 {
   flex-direction: column;
   border-bottom: 3px dotted red;
 }
+
+a {
+  color: darkcyan;
+}
