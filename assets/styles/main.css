@@ -10208,4 +10208,29 @@ header.masthead h1 {
 .LiveLinks {
   text-align: center;
   color: lightcoral;
+  margin-left: 20%;
+}
+
+.LiveLinks2 {
+  text-align: center;
+  color: lightcoral;
+  margin-left: 35%;
+}
+
+.myImg {
+  /* background-image: url("../img/Screenshot_3522.png"); */
+  background-position: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.resumeButton {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
 }
