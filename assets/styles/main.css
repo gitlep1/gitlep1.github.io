@@ -10205,17 +10205,6 @@ header.masthead h1 {
   flex-direction: column;
 }
 
-.LiveLinks {
-  text-align: center;
-  color: lightcoral;
-  margin-left: 20%;
-}
-
-.LiveLinks2 {
-  text-align: center;
-  color: lightcoral;
-  margin-left: 35%;
-}
 
 .myImg {
   /* background-image: url("../img/Screenshot_3522.png"); */
@@ -10233,4 +10222,53 @@ header.masthead h1 {
   margin-left: auto;
   margin-right: auto;
   width: 17%;
+}
+
+.ticTacToeLL, .chatRoomLL {
+  text-align: center;
+  color: lightcoral;
+  margin-left: 20%;
+}
+
+.jokeSiteLL, .cartoonStreamingLL {
+  text-align: center;
+  color: lightcoral;
+  margin-left: 35%;
+}
+
+@media (max-width: 500px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    color: red;
+  }
+}
+@media (max-width: 700px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    color: green;
+  }
+}
+@media (max-width: 900px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    color: blue;
+  }
+  .ticTacToeLL {
+    position: absolute;
+    left: -19vw;
+    top: 535vh;
+  }
+  .jokeSiteLL {
+    position: absolute;
+    right: 1vw;
+    top: 650vh;
+  }
+  .chatRoomLL {
+    position: absolute;
+    left: -19.5vw;
+    top: 700vh;
+  }
+}
+@media (min-width: 1200px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    max-width: 1200px;
+    color: cyan;
+  }
 }
