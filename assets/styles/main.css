@@ -10240,10 +10240,16 @@ header.masthead h1 {
   .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
     color: red;
   }
+  .githubLink {
+    margin-left: 25%;
+  }
 }
 @media (max-width: 700px) {
   .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
     color: green;
+  }
+  .githubLink {
+    margin-left: 25%;
   }
 }
 @media (max-width: 900px) {
@@ -10265,10 +10271,28 @@ header.masthead h1 {
     left: -19.5vw;
     top: 700vh;
   }
+  .githubLink {
+    margin-left: 10%;
+  }
 }
 @media (min-width: 1200px) {
   .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
     max-width: 1200px;
     color: cyan;
   }
+  .githubLink {
+    margin-left: 25%;
+  }
+}
+
+.emailLink {
+
+}
+
+.linkedinLink {
+
+}
+
+.githubLink {
+  margin-left: 25%;
 }
