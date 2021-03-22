@@ -11,7 +11,7 @@
       <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
       <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-      <link href="./assets/styles/main.css" rel="stylesheet" />
+      <link href="./assets/styles/scss/main.css" rel="stylesheet" />
    </head>
 
    <body id="page-top">
@@ -56,13 +56,13 @@
                <div class="col-lg-8 text-center">
                   <h2 class="text-black mt-0">About Me</h2>
                   <hr class="divider light my-4" />
-                  <p>My interest in computers and coding started when I was a kid. I remember thinking to myself "How does this computer work?" "what makes it work?" "Is it hard to build a computer?". So I just decided to open the computer up and find out myself at that moment it sparked my interest in computers, I wanted to know everything about them and not just the hardware I wanted to know what kind of code went into them as well. While looking up computer tutorial videos on youtube I also started wondering how they designed such a website, What tools did they use, How difficult is it.
+                  <p>My interest in computers and coding started when I was a kid. I remember thinking to myself "How does this computer work?" "what makes it work?" "Is it hard to build a computer?". So I just decided to open the computer up and find out myself and at that moment it sparked my interest in computers, I wanted to know everything about them and not just the hardware I wanted to know what kind of code went into them as well. While looking up computer tutorial videos on youtube I also started wondering how they designed such a website, What tools did they use, How difficult is it.
                   <br>
                   <br>
                   Years later I looked into it and found a website called <a href="https://www.codecademy.com/" target="_blank" class="linkToCodecademy">codecademy</a> where I started learning the 3 basic languages of software developing HTML, CSS and JAVASCRIPT.
                   <br>
                   <br> 
-                  After highschool I enrolled in a trade school called "Job Corps" to learn IT in order to learn more about the hardware of computers(I had to do a TON of reading!) I found out that it's actually not that complicated to build computers. After I completed that school I enrolled in another trade school called "Tech and Media" to learn basic C programming (It was fun and I also got to learn some of the basics of unity, C# and C++ as well). After I got my diploma from that school I later enrolled in another trade school called "General Assembly" and took an immersive course in software developing and that's where I learned alot more about HTML, CSS and JAVASCRIPT, As well as some new languages like SCSS(my favorite language), REACT and PYTHON.
+                  After highschool I enrolled in a trade school called "Job Corps" to learn IT in order to learn more about the hardware of computers (I had to do a TON of reading!) I found out that it's actually not that complicated to build computers. After I completed that school I enrolled in another trade school called "Tech and Media" to learn basic C programming (It was fun and I also got to learn some of the basics of unity, C# and C++ as well). After I got my diploma from that school I later enrolled in another trade school called "General Assembly" and took an immersive course in software developing and that's where I learned alot more about HTML, CSS and JAVASCRIPT, As well as some new languages like SCSS(my favorite language), REACT and PYTHON.
                   <br>
                   <br>
                   
@@ -133,10 +133,75 @@
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#projects">My Projects</a>
          </div>
       </section>
-      <!-- Portfolio-->
+      <!-- Projects-->
       <section class="page-section bg-dark" id="projects">
-         <div class="container">
-            <h2 class="text-center mt-0 projectsTitle">Projects</h2>
+         <h2 class="text-center mt-0 projectsTitle">My Projects</h2>
+            <hr class="divider dark my-4" />
+         <div class="container-1">
+            <div>
+               <button class="btn btn-primary jokesButton" onclick="showJokes()">Jokes Site</button>
+               <div id="showJokes">
+                  <div id="jokesPortfolio">
+                     <div class="col-lg-7">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.png">
+                           <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.png" alt="" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="jokesLinks">
+                     <p>Live Link:</p>
+                     <a href="https://gitlep1.github.io/jokes-client-side/" class="jokeSiteLL" target="_blank">https://gitlep1.github.io/jokes-client-side/</a>
+                     <br>
+                     <br>
+                     <p>Github Link:</p>
+                     <a href="https://github.com/gitlep1/jokes-client-side" class="jokeSiteLL" target="_blank">https://github.com/gitlep1/jokes-client-side</a>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <button class="btn btn-primary chatButton" onclick="showChatroom()">Chat Room</button>
+               <div id="showChatroom">
+                  <div id="chatPortfolio">
+                     <div class="col-lg-7">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.png">
+                           <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.png" alt="" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="chatLinks">
+                     <p>Live Link:</p>
+                     <a href="https://gitlep1.github.io/chat-room-1/#/" class="jokeSiteLL" target="_blank">https://gitlep1.github.io/chat-room-1/#/</a>
+                     <br>
+                     <br>
+                     <p>Github Link:</p>
+                     <a href="https://github.com/gitlep1/chat-room-1" class="jokeSiteLL" target="_blank">https://github.com/gitlep1/chat-room-1</a>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <button class="btn btn-primary StreamingButton" onclick="showStreaming()">Streaming Cartoons</button>
+               <div id="showStreaming">
+                  <div id="streamingPortfolio">
+                     <div class="col-lg-7">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.png">
+                           <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.png" alt="" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="streamingLinks">
+                     <p>Live Link:</p>
+                     <a href="https://gitlep1.github.io/streaming-client/#/" class="jokeSiteLL" target="_blank">https://gitlep1.github.io/streaming-client/#/</a>
+                     <br>
+                     <br>
+                     <p>Github Link:</p>
+                     <a href="https://github.com/gitlep1/streaming-client" class="jokeSiteLL" target="_blank">https://github.com/gitlep1/streaming-client</a>
+                  </div>
+               </div>
+            </div>
+
+            <!--EVERYTHING BELOW THIS (THAT IS COMMENTED) IS TO COMPLICATED FOR ME AT THE MOMENT COME BACK LATER-->
+
+            <!-- <h2 class="text-center mt-0 projectsTitle">Projects</h2>
             <hr class="divider my-4" />
             <div class="liveLinksContainer">
             <a href="https://gitlep1.github.io/tic-tac-toe-client/" class="ticTacToeLL" target="_blank">Tic-Tac-Toe</a>
@@ -153,13 +218,17 @@
                            </div>
                         </a>
                      </div>
-                     <div class="col-lg-4 col-lg-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.png">
-                           <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.png" alt="" />
-                           <div class="portfolio-box-caption">
-                              <div class="project-name">Jokes Web App</div>
+                     <div class="container-jokes">
+                        <div class="jokes-box">
+                           <div class="col-lg-4 col-lg-6">
+                              <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.png">
+                                 <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.png" alt="" />
+                                 <div class="portfolio-box-caption">
+                                    <div class="project-name">Jokes Web App</div>
+                                 </div>
+                              </a>
                            </div>
-                        </a>
+                        </div>
                      </div>
                      <div class="col-lg-4 col-lg-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.png">
@@ -180,8 +249,9 @@
                   </div>
                </div>
             </div>
+            <a href="https://gitlep1.github.io/jokes-client-side/" class="jokeSiteLL" target="_blank">Jokes Site</a>
             <a href="https://gitlep1.github.io/chat-room-1/#/" class="chatRoomLL" target="_blank">Chat Room</a>
-            <a href="https://gitlep1.github.io/streaming-client/#/" class="cartoonStreamingLL" target="_blank">Cartooon Streaming</a>
+            <a href="https://gitlep1.github.io/streaming-client/#/" class="cartoonStreamingLL" target="_blank">Cartooon Streaming</a> -->
          </div>
          <a class="btn btn-secondary btn-xl js-scroll-trigger resumeButton" href="#myResume">Resume</a>
          <p id="myResume"></p>
@@ -277,12 +347,6 @@
                         <div class="resumeProjects">
                            <h2>PROJECTS:</h2>
                            <p>
-                              Tic - Tac - Toe<br>I created this tic-tac-toe web app from scratch.<br>
-                              Live Link: <a href="https://gitlep1.github.io/tic-tac-toe-client/" target="_blank">https://gitlep1.github.io/tic-tac-toe-client/</a>
-                              <br>
-                              Github Link: <a href="https://github.com/gitlep1/tic-tac-toe-client" target="_blank">https://github.com/gitlep1/tic-tac-toe-client</a>
-                              <br>
-                              <br>
                               Jokes web app<br>A web app that has jokes on it.<br>
                               Live Link: <a href="https://gitlep1.github.io/jokes-client-side/" target="_blank">https://gitlep1.github.io/jokes-client-side/</a>
                               <br>
@@ -364,6 +428,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
       <!-- Core theme JS-->
       <script src="./assets/scripts/index.js"></script>
+      <script src="./assets/scripts/projects.js"></script>
    </body>
 </html>
 

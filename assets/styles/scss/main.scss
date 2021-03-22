@@ -1,4 +1,4 @@
-@import '~bootstrap/scss/bootstrap';
+// @import "~bootstrap/scss/bootstrap";
 
 :root {
   --blue: #007bff;
@@ -10203,4 +10203,158 @@ header.masthead h1 {
 .skills4 {
   display: flex;
   flex-direction: column;
+}
+
+
+.myImg {
+  /* background-image: url("../img/Screenshot_3522.png"); */
+  background-position: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.resumeButton {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  width: 17%;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#showJokes {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#showChatroom {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#showStreaming {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#jokesPortfolio {
+  flex-basis: 50%;
+}
+
+#chatPortfolio {
+  flex-basis: 50%;
+}
+
+#streamingPortfolio {
+  flex-basis: 50%;
+}
+
+.jokesLinks {
+  color: cyan;
+}
+
+.chatLinks {
+  color: cyan;
+}
+
+.streamingLinks {
+  color: cyan;
+}
+
+
+
+// EVERYTHING BELOW THIS (THAT IS COMMENTED) I DON'T KNOW TO WELL USE LATER WHEN IM BETTER AT SCSS \\
+
+// .container-jokes .jokes-box {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .jokes-box {
+//   flex: 1;
+// }
+
+// .ticTacToeLL, .chatRoomLL {
+//   text-align: center;
+//   color: lightcoral;
+//   margin-left: 20%;
+// }
+
+// .jokeSiteLL, .cartoonStreamingLL {
+//   text-align: center;
+//   color: lightcoral;
+//   margin-left: 35%;
+// }
+
+/* @media (max-width: 500px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    color: red;
+  }
+  .githubLink {
+    margin-left: 25%;
+  }
+}
+@media (max-width: 700px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    color: green;
+  }
+  .githubLink {
+    margin-left: 25%;
+  }
+}
+@media (max-width: 900px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    color: blue;
+  }
+  .ticTacToeLL {
+    position: absolute;
+    left: -19vw;
+    top: 535vh;
+  }
+  .jokeSiteLL {
+    position: absolute;
+    right: 1vw;
+    top: 650vh;
+  }
+  .chatRoomLL {
+    position: absolute;
+    left: -19.5vw;
+    top: 700vh;
+  }
+  .githubLink {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 1200px) {
+  .ticTacToeLL, .jokeSiteLL, .chatRoomLL, .cartoonStreamingLL {
+    max-width: 1200px;
+    color: cyan;
+  }
+  .githubLink {
+    margin-left: 25%;
+  }
+} */
+
+/* .emailLink {
+
+}
+
+.linkedinLink {
+
+} */
+
+.githubLink {
+  margin-left: 25%;
 }

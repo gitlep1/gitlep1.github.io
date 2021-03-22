@@ -17,5 +17,8 @@
   "scripts": {
     "sass": "node-sass --watch assets/styles/scss -o assets/styles",
     "serve": "browser-sync start --server --files 'index.html, assets/styles/main.css, assets/scripts/index.js'"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
   }
 }
