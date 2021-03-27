@@ -10243,7 +10243,13 @@ header.masthead h1 {
   align-items: center;
 }
 
-#showStreaming {
+#showCartoonStreaming {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#showAnimeStreaming {
   display: flex;
   flex: 1;
   align-items: center;
@@ -10257,7 +10263,11 @@ header.masthead h1 {
   flex-basis: 50%;
 }
 
-#streamingPortfolio {
+#streamingCartoonPortfolio {
+  flex-basis: 50%;
+}
+
+#streamingAnimePortfolio {
   flex-basis: 50%;
 }
 
@@ -10269,7 +10279,11 @@ header.masthead h1 {
   color: cyan;
 }
 
-.streamingLinks {
+.streamingCartoonLinks {
+  color: cyan;
+}
+
+.streamingAnimeLinks {
   color: cyan;
 }
 

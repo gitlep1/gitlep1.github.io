@@ -3,24 +3,35 @@
 const showJokes = () => {
   $('#showJokes').show()
   $('#showChatroom').hide()
-  $('#showStreaming').hide()
+  $('#showCartoonStreaming').hide()
+  $('#showAnimeStreaming').hide()
 }
 
 const showChatroom = () => {
   $('#showJokes').hide()
   $('#showChatroom').show()
-  $('#showStreaming').hide()
+  $('#showCartoonStreaming').hide()
+  $('#showAnimeStreaming').hide()
 }
 
-const showStreaming = () => {
+const showCartoonStreaming = () => {
   $('#showJokes').hide()
   $('#showChatroom').hide()
-  $('#showStreaming').show()
+  $('#showCartoonStreaming').show()
+  $('#showAnimeStreaming').hide()
+}
+
+const showAnimeStreaming = () => {
+  $('#showJokes').hide()
+  $('#showChatroom').hide()
+  $('#showCartoonStreaming').hide()
+  $('#showAnimeStreaming').show()
 }
 
 
 $(() => {
   $('#showJokes').hide()
   $('#showChatroom').hide()
-  $('#showStreaming').hide()
+  $('#showCartoonStreaming').hide()
+  $('#showAnimeStreaming').hide()
 })

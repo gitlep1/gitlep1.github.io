@@ -11151,7 +11151,19 @@ header.masthead h1 {
           align-items: center;
 }
 
-#showStreaming {
+#showCartoonStreaming {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showAnimeStreaming {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11173,7 +11185,12 @@ header.masthead h1 {
       flex-basis: 50%;
 }
 
-#streamingPortfolio {
+#streamingCartoonPortfolio {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#streamingAnimePortfolio {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
@@ -11186,7 +11203,11 @@ header.masthead h1 {
   color: cyan;
 }
 
-.streamingLinks {
+.streamingCartoonLinks {
+  color: cyan;
+}
+
+.streamingAnimeLinks {
   color: cyan;
 }
 
